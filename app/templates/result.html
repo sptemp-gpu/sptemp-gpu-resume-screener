@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="result-container">
+        <h2 class="result-message {% if message == '✅ Match Found!' %}success{% else %}error{% endif %}">{{ message }}</h2>
+        <a href="/" class="try-again">Try another</a>
+    </div>
+</body>
+</html>
