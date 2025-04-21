@@ -17,3 +17,9 @@ Thumbs.db
 
 # Uploads
 uploads/
+
+#files
+model/
+results/
+finetuned_bert/
+

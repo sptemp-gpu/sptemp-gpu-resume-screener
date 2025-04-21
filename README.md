@@ -13,6 +13,33 @@ This is a web application that uses AI to screen resumes and match them to a job
 - **PyMuPDF**: PDF text extraction library
 - **HTML/CSS**: Frontend for file upload and input
 
+## 🔗 Required Files (Hosted on Google Drive)
+
+Due to GitHub's file size limitations, the following files are hosted externally.
+
+👉 [Download Required Files Folder](## 🔗 Required Files (Hosted on Google Drive)
+
+Due to GitHub's file size limitations, the following files are hosted externally.
+
+👉 [Download Required Files Folder](https://drive.google.com/drive/folders/1n_RCxtpPpyPrjjASGV4YTBwLX9JIhrub?usp=sharing)
+
+Please download and place the files as follows:
+
+- `model.safetensors` → `model/model.safetensors`
+- `optimizer.pt` → `results/checkpoint-3/optimizer.pt`
+- `finetuned_bert/model.safetensors` → `finetuned_bert/model.safetensors`
+
+Ensure the directory structure matches so the code works properly.
+)
+
+Please download and place the files as follows:
+
+- `model.safetensors` → `model/model.safetensors`
+- `optimizer.pt` → `results/checkpoint-3/optimizer.pt`
+- `finetuned_bert/model.safetensors` → `finetuned_bert/model.safetensors`
+
+Ensure the directory structure matches so the code works properly.
+
 ## Installation & Setup
 
 1. Clone the repository:
